@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('App TODO'),
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.greenAccent,
       ),
       body: ListView.separated(
         separatorBuilder: (context, index) =>
